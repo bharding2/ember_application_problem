@@ -1,3 +1,9 @@
 <h2>List of Issues of various ages</h2>
 
+<ul>
+  {{#each model as |num_issues|}}
+    <li>{{num_issues}}</li>
+  {{/each}}
+</ul>
+
 {{outlet}}
