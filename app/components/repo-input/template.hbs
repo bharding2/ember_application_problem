@@ -1,1 +1,12 @@
+<h3>input repo url to find your issues</h3>
+
+<form id="repo-input">
+  <p>
+    {{input value=repoUrl placeholder="repo url"}}
+  </p>
+  <p>
+    <button {{action "findRepoIssues"}}>Find Issues</button>
+  </p>
+</form>
+
 {{yield}}
