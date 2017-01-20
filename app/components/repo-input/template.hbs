@@ -2,10 +2,10 @@
 
 <form id="repo-input">
   <p>
-    {{input value=repoUrl placeholder="repo url"}}
+    {{input value=repo.repoUrl placeholder="repo url"}}
   </p>
   <p>
-    <button {{action "findRepoIssues"}}>Find Issues</button>
+    <button {{action "findRepoIssues" repo}}>Find Issues</button>
   </p>
 </form>
 

@@ -2,8 +2,8 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
   actions: {
-    findRepoIssues: function () {
-      
+    findRepoIssues: function (repo) {
+      console.log(repo.repoUrl);
     }
   }
 });
