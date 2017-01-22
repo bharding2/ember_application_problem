@@ -3,7 +3,11 @@ import Ember from 'ember';
 export default Ember.Component.extend({
   actions: {
     findRepoIssues: function (repo) {
-      console.log(repo.repoUrl);
+      var repoData = repo.repoUrl.split('github.com')[1];
+      var splitData = repoData.split('/');
+      var userOrg = splitData[1];
+      var repoName = splitData[2];
+      console.log(userOrg, repoName);
     }
   }
 });
