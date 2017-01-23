@@ -7,7 +7,12 @@ export default Ember.Component.extend({
       var splitData = repoData.split('/');
       var userOrg = splitData[1];
       var repoName = splitData[2];
-      console.log(userOrg, repoName);
+
+      var repoUrlString = 'https://api.github.com/repos/' + userOrg + '/' + repoName + '/issues';
+
+      Ember.$.getJSON(repoUrlString, function(data) {
+        console.log(data);
+      });
     }
   }
 });
