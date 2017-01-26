@@ -7,8 +7,9 @@ export default Ember.Component.extend({
       var splitData = repoData.split('/');
       var userOrg = splitData[1];
       var repoName = splitData[2];
+      var issueResultPage = 0;
 
-      var repoUrlString = 'https://api.github.com/repos/' + userOrg + '/' + repoName + '/issues?state=all&per_page=100';
+      var repoUrlString = 'https://api.github.com/repos/' + userOrg + '/' + repoName + '/issues?state=all&per_page=100&page=' + issueResultPage;
 
       var issuesSince24Hrs = 0;
       var issuesSince7Days = 0;
