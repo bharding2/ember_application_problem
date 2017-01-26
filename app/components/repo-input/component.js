@@ -29,8 +29,6 @@ export default Ember.Component.extend({
         });
       };
 
-      console.log(todayBase);
-
       getIssues(function() {
         issueResults.forEach((ele) => {
           if (Date.parse(ele.created_at) >= todayBase - 86400000) issuesSince24Hrs++;
