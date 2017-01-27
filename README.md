@@ -1,5 +1,7 @@
 # ember-application-problem
 
+I started as a code challenge for a job application and now have turned into a reason to mess with ember instead.  What a weird world.
+
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
