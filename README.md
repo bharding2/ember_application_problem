@@ -2,6 +2,8 @@
 
 I started as a code challenge for a job application and now have turned into a reason to mess with ember instead.  What a weird world.
 
+The rest of this stuff is crazy ember stuff, who knew they populated readme data as well.
+
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
