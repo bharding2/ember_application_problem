@@ -1,6 +1,6 @@
 # ember-application-problem
 
-I started as a code challenge for a job application and now have turned into a reason to mess with ember instead.  What a weird world.
+I started as a code challenge for a job application and now have turned into a reason to mess with ember instead.  What a weird world.  The goal is to take a github repo url and return issue information.
 
 The rest of this stuff is crazy ember stuff, who knew they populated readme data as well.
 
