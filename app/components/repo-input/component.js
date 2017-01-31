@@ -35,7 +35,9 @@ export default Ember.Component.extend({
           if (Date.parse(ele.created_at) >= todayBase - 604800000) issuesSince7Days++;
           if (Date.parse(ele.created_at) <= todayBase - 604800000) issuesBefore7Days++;
         });
-        console.log(issuesSince24Hrs, issuesSince7Days, issuesBefore7Days);
+        console.log('issues in past 24 hours: ', issuesSince24Hrs,
+        'issues in past 7 days: ', issuesSince7Days,
+        'issues over 7 days old: ' issuesBefore7Days);
       });
     }
   }
