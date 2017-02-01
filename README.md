@@ -1,6 +1,6 @@
 # ember-application-problem
 
-I started as a code challenge for a job application and now have turned into a reason to mess with ember instead.  What a weird world.  The goal is to take a github repo url and return issue information.
+I started as a code challenge for a job application and now have turned into a reason to mess with ember instead.  What a weird world.  The goal is to take a github repo url and return issue information, specificaly about issue creation dates.  Unfortunately the github api defaults to returning issue information based on the date last updated instead of date last created, so some extra data manipulation is required.
 
 The rest of this stuff is crazy ember stuff, who knew they populated readme data as well.
 
